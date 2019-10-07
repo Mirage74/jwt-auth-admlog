@@ -1,0 +1,36 @@
+{
+  "name": "jwt-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/Balexvic/jwt-server.git"
+  },
+  "keywords": [],
+  "author": "Balex <balexvicx@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/Balexvic/jwt-server#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.8.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-passport": "^4.1.3",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongo-uri-builder": "^2.0.0",
+    "mongoose": "^5.7.3",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^2.3.0",
+    "socketio-jwt": "^4.5.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {}
+}
